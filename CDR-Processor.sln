@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Manage_Telecommunication_DB", "CDR-Processor\CDR-Processor.vcxproj", "{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7} = {5BF11884-5409-4930-9CDA-C626E6BB12F7}
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46} = {69E6186C-D690-4BA5-9CB8-308C4D4B1D46}
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257} = {D6BA96C9-C871-4CBE-B75F-6BF82B31E257}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Input_validation", "Input_validation\Input_validation.vcxproj", "{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "data_structure", "data_structure\data_structure.vcxproj", "{5BF11884-5409-4930-9CDA-C626E6BB12F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "telnet_support", "telnet_support\telnet_support.vcxproj", "{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Debug|x64.ActiveCfg = Debug|x64
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Debug|x64.Build.0 = Debug|x64
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Debug|x86.Build.0 = Debug|Win32
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Release|x64.ActiveCfg = Release|x64
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Release|x64.Build.0 = Release|x64
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Release|x86.ActiveCfg = Release|Win32
+		{7ECF9EC2-B61A-4F0E-882C-FFE4CFD897A9}.Release|x86.Build.0 = Release|Win32
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Debug|x64.ActiveCfg = Debug|x64
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Debug|x64.Build.0 = Debug|x64
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Debug|x86.Build.0 = Debug|Win32
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Release|x64.ActiveCfg = Release|x64
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Release|x64.Build.0 = Release|x64
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Release|x86.ActiveCfg = Release|Win32
+		{D6BA96C9-C871-4CBE-B75F-6BF82B31E257}.Release|x86.Build.0 = Release|Win32
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Debug|x64.ActiveCfg = Debug|x64
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Debug|x64.Build.0 = Debug|x64
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Debug|x86.Build.0 = Debug|Win32
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Release|x64.ActiveCfg = Release|x64
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Release|x64.Build.0 = Release|x64
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Release|x86.ActiveCfg = Release|Win32
+		{5BF11884-5409-4930-9CDA-C626E6BB12F7}.Release|x86.Build.0 = Release|Win32
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Debug|x64.ActiveCfg = Debug|x64
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Debug|x64.Build.0 = Debug|x64
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Debug|x86.ActiveCfg = Debug|Win32
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Debug|x86.Build.0 = Debug|Win32
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Release|x64.ActiveCfg = Release|x64
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Release|x64.Build.0 = Release|x64
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Release|x86.ActiveCfg = Release|Win32
+		{69E6186C-D690-4BA5-9CB8-308C4D4B1D46}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89286354-83DA-43A1-BB0B-AFDC284697B7}
+	EndGlobalSection
+EndGlobal
